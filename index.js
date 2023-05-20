@@ -17,9 +17,7 @@ app.get('/', (req, res) => {
     res.send('Baby Toys Server Running')
 })
 
-app.get('/alltoys', (req, res) => {
 
-})
 
 
 
@@ -41,11 +39,17 @@ async function run() {
         await client.connect();
 
 
+        const toysCollection = client.db("babyToysDB").collection("allToys");
 
 
 
 
+        app.get('/alltoys', async (req, res) => {
 
+            const result = await toysCollection.find().toArray()
+            res.send(result)
+
+        })
 
 
 
@@ -55,7 +59,7 @@ async function run() {
         console.log("Pinged your deployment. You successfully connected to MongoDB!");
     } finally {
         // Ensures that the client will close when you finish/error
-        await client.close();
+        // await client.close();
     }
 }
 run().catch(console.dir);
