@@ -1,0 +1,56 @@
+[
+    {
+        "category": "sportsCars",
+        "name": "Hot Wheels Speedster",
+        "price": 9.99,
+        "rating": 4.5,
+        "quantity": 5,
+        "picture": "https://i.ibb.co/WDrq2dQ/sports1.jpg",
+        "description": "The Hot Wheels Speedster is a sleek and fast toy car designed for speed enthusiasts. With its vibrant red color and aerodynamic design, it's sure to catch everyone's attention. Zoom past your friends and race to victory with this exciting toy car!"
+    },
+    {
+        "category": "sportsCars",
+        "name": "LEGO Technic Supercar",
+        "price": 49.99,
+        "rating": 4.8,
+        "quantity": 5,
+        "picture": "https://i.ibb.co/2M7KdmP/sports.jpg",
+        "description": "Build your own supercar with the LEGO Technic Supercar set! This blue beauty features realistic details and functioning components. With its impressive design and high performance, it's perfect for young builders and car enthusiasts alike."
+    },
+    {
+        "category": "movieCars",
+        "name": "Disney Pixar Cars Lightning McQueen",
+        "price": 19.99,
+        "rating": 4.7,
+        "quantity": 5,
+        "picture": "https://i.ibb.co/m6MjCjf/download.jpg",
+        "description": "Join Lightning McQueen and his friends on exciting racing adventures! This red Disney Pixar Cars toy car is inspired by the popular animated movie. With its vibrant color, detailed design, and lovable character, it's a must-have for fans of the film."
+    },
+    {
+        "category": "movieCars",
+        "name": "Transformers Bumblebee",
+        "price": 39.99,
+        "rating": 4.6,
+        "quantity": 5,
+        "picture": "https://i.ibb.co/XjvVfGq/images.jpg",
+        "description": "Get ready for epic battles with the Transformers Bumblebee toy car! This yellow warrior transforms from a sleek car into a powerful robot. With its impressive features, cool design, and action-packed playability, it's the ultimate toy for Transformers fans."
+    },
+    {
+        "category": "construction",
+        "name": "Tonka Mighty Dump Truck",
+        "price": 29.99,
+        "rating": 4.4,
+        "quantity": 5,
+        "picture": "https://i.ibb.co/ZzYMbvJ/images-1.jpg",
+        "description": "The Tonka Mighty Dump Truck is perfect for little builders and construction enthusiasts. This rugged yellow truck features a large bed for hauling and dumping sand, rocks, and more. With its durable construction and realistic design, it provides endless hours of imaginative play."
+    },
+    {
+        "category": "construction",
+        "name": "Bruder CAT Excavator",
+        "price": 59.99,
+        "rating": 4.9,
+        "quantity": 5,
+        "picture": "https://i.ibb.co/f25QM9P/images-2.jpg",
+        "description": "Dig and excavate with the Bruder CAT Excavator! This realistic toy vehicle features a fully functional arm and bucket, allowing kids to handle heavy-duty construction tasks. With its attention to detail and high-quality construction, it's a favorite among budding engineers."
+    }
+]
