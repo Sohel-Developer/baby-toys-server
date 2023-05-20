@@ -63,6 +63,14 @@ async function run() {
         })
 
 
+        app.post('/alltoys', async (req, res) => {
+            const toy = req.body;
+            console.log(toy);
+            const result = await toysCollection.insertOne(toy);
+            res.send(result)
+        })
+
+
 
 
         // Send a ping to confirm a successful connection
